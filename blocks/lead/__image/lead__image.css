@@ -2,15 +2,9 @@
   width: 100%;
 }
 
-@media all and (max-width: 768px) {
+@media screen and (max-width: 320px) {
   .lead__image {
-    height: 480px;
-  }
-}
-
-@media all and (max-width: 425px) {
-  .lead__image {
+    height: 211px;
     width: auto;
-    height: 200px;
   }
 }

@@ -1,7 +1,18 @@
 .header {
-  max-width: 93%;
-  margin: 0 auto;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  padding: 0 48px 0;
+}
+
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 0 24px 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    padding: 0 16px 0;
+  }
 }

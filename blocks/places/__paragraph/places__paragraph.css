@@ -1,24 +1,33 @@
 .places__paragraph {
   grid-column: 2;
+  font-weight: normal;
   font-size: 18px;
   line-height: 1.63;
   padding-bottom: 26px;
   margin: 0;
 }  
 
-.places__paragraph:last-of-type {
+.places__paragraph:last-child {
   padding-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .places__paragraph {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 640px) {
   .places__paragraph {
-    width: 90%;
     grid-column: 1;
-    font-size: 16px;
-    line-height: 26px;
+    line-height: 27px;
   }
 
-  .places__paragraph:last-of-type {
-   padding-bottom: 0;
+  .places__paragraph:first-child {
+    padding: 32px 0 25px;
+  }
+  
+  .places__paragraph:last-child {
+    padding-bottom: 0;
   }
 }

@@ -4,7 +4,7 @@
 }
 
 @media screen and (max-width: 425px) {
-    .places__text {
-        padding: 0px 16px;
-    }
+  .places__text {
+    padding: 0 16px;
+  }
 }
