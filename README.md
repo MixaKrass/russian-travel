@@ -10,5 +10,3 @@
 6. В этом проекте не было брифа, все данные получали черег Figma.
 ## Планы по доработке
 1. добавить больше вёрстки grid layout
-## Ссылка на сайт
-https://mixakrass.github.io/russian-travel/index.html
